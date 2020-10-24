@@ -4,6 +4,7 @@
 # Merge header.html into index.html
 cat header.html >> index.html 
 
+# Apply some settings for the following for-loop
 shopt -s nullglob # Sets nullglob
 shopt -s nocaseglob # Sets nocaseglob
 
