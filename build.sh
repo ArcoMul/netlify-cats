@@ -1,3 +1,7 @@
+# The following script is executed to 'build' an index.html file
+# Based on the following commands (these are normal command line commands)
+# an index.html file is generated, which is then shown online
+
 # Empty index.html
 > index.html
 
