@@ -4,4 +4,18 @@ body {
 
 img {
   max-width: 400px;
+  width: 100%;
+}
+
+.flex-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.flex-col {
+  flex-basis: calc(25%-20px);
+  margin: 10px;
 }

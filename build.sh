@@ -14,7 +14,7 @@ shopt -s nocaseglob # Sets nocaseglob
 
 # For each image in the folder print it into an <img> tag in index.html
 for filename in ./cats/*.{jpg,jpeg,png}; do
-    echo '    <img src="' $filename '"/>' >> index.html
+    echo '    <div class="flex-col"><img src="' $filename '"/></div>' >> index.html
 done
 
 # Merge footer.html into index.html
