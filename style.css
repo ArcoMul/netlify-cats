@@ -10,8 +10,26 @@ img {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   text-align: center;
+  transform: translateX(20px);
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  animation: move-img 5s ease-in-out;
+  -webkit-animation: move-img 5s ease-in-out;
 }
 
 img::before {
   content: "Add Your Cat !";
+}
+@keyframes move-img {
+  0% {
+    text-align: left;
+  }
+  50% {
+    text-align: center;
+  }
+  100% {
+    text-align: right;
+  }
 }
