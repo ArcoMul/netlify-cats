@@ -40,10 +40,11 @@ img::before {
   margin: 0 auto;
   padding: 2rem;
   display: flex;
+  flex-wrap: wrap;
   background-color: #ffffff;
 }
 
 .flex-col {
-  flex-basis: calc(25%-20px);
+  flex-basis: calc(25% - 20px);
   margin: 10px;
 }
