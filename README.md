@@ -10,7 +10,13 @@ Add your own cat image to the [demo page](https://cats-hyf.netlify.app/) using t
 6. Create pull request
 7. Wait for approval
 
-## Bonus
+## Bonus Challanges
 
 - Change more things on the page and create a pull request
-- For example: background color, position of the images, page title, css animations
+- For example: background color, position of the images, page title, css animations, flexbox/grid
+
+---
+
+## How it works
+
+See: [how-it-works.md](how-it-works.md)
