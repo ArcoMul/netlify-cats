@@ -19,4 +19,4 @@ Add your own cat image to the [demo page](https://cats-hyf.netlify.app/) using t
 
 ## How it works
 
-See: [how-it-works.md](how-it-works.md)
+Curious how to repository and demo page work? Find out more in: [how-it-works.md](how-it-works.md)
