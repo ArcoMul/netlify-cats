@@ -13,7 +13,7 @@ shopt -s nullglob # Sets nullglob
 shopt -s nocaseglob # Sets nocaseglob
 
 # For each image in the folder print it into an <img> tag in index.html
-for filename in ./cats/*.{jpg,jpeg,png}; do
+for filename in ./cats/*.{jpg,jpeg,png,jfif}; do
     echo '    <img src="' $filename '"/>' >> index.html
 done
 
