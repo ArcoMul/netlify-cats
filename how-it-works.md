@@ -14,6 +14,6 @@ When Netlify detects that the repository has changed it will first 'build' the s
 
 ## build.sh
 
-The build file is a shell file. It can be executed on the command line. When opening the file you will see that the file contains a lot of command line instructions. These are commands which you can also execute in your terminal. What this file does in the end is putting the content of header.html in a file called index.html. Then it finds all the images in the folder called cats and adds for every image an `<img>` tag to the index.html file. When all the images are in there footer.html is also appended to index.html. Al lof this results in an index.html with all the necesarry html elements, and a list of images.
+The build file is a shell file. It can be executed on the command line. When opening the file you will see that the file contains a lot of command line instructions. These are commands which you can also execute in your terminal. What this file does in the end is putting the content of header.html in a file called index.html. Then it finds all the images in the folder called cats and adds for every image an `<img>` tag to the index.html file. When all the images are in there footer.html is also appended to index.html. All of this results in an index.html with all the necesarry html elements, and a list of images.
 
 When visiting the demo page the index.html file is loaded and we are able to see all the cat images.
