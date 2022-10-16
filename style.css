@@ -1,7 +1,50 @@
 body {
+  /* Position */
+  padding: 1%;
+
+  /* Design */
   background-color: gray;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+h1{
+  /* Position */
+  padding: 20px;
+  text-align: center;
+
+  /* Design */
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  
 }
 
-img {
-  max-width: 400px;
+.catContainer{
+  /* Position */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Size */
+  height: 400px;
+  width: 400px;
+
+  /* Design */
+  border-radius: 10px;
+  overflow: hidden; /* for border radius to work */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.catContainer img {
+    /* Size */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* To make different size of images look same size, hoping cat was in the center of the image */
+    overflow: hidden;
+    
+}
+
+.flexbox{
+  /* Position */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
