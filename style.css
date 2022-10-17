@@ -16,6 +16,16 @@ h1 {
   color: #e0ca3c;
 }
 
+footer {
+  border-top: solid white;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+footer p {
+  font-size: 12px;
+}
+
 .flexbox {
   /* Position */
   display: flex;
