@@ -3,22 +3,20 @@ body {
   padding: 1%;
 
   /* Design */
-  background-color: gray;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  background-color: #f34213;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+h1 {
   /* Position */
   padding: 20px;
   text-align: center;
 
   /* Design */
   letter-spacing: 3px;
-  color: rgb(255, 255, 255);
-  
+  color: #e0ca3c;
 }
 
-.flexbox{
+.flexbox {
   /* Position */
   display: flex;
   flex-wrap: wrap;
@@ -26,13 +24,13 @@ h1{
   gap: 20px;
 }
 
-.catContainer{
+.catContainer {
   /* Position */
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  
+
   /* Size */
   max-height: 400px;
   width: 23%;
@@ -40,7 +38,8 @@ h1{
   /* Design */
   border-radius: 10px;
   overflow: hidden; /* for border radius to work */
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .catContainer img {
@@ -51,7 +50,7 @@ h1{
   overflow: hidden;
 }
 
-.catName{
+.catName {
   /* Position */
   position: absolute;
   bottom: 1%;
@@ -69,20 +68,18 @@ h1{
   backdrop-filter: blur(15px);
 }
 
-
 /* Responsive Design */
 @media screen and (max-width: 800px) {
-  .catContainer{
+  .catContainer {
     width: 48%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .catContainer{
+  .catContainer {
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 24px;
   }
 }
-
